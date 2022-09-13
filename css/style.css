@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(212, 212, 212, 0.974);
+}
+/* logo-titolo */
+header{
+    background-color: white;
+}
+
+.imglogo{
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.titolo{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+nav{
+    max-width: 1000px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 40px 80px;
+    border-bottom: 1px solid rgba(239, 239, 240,0.5) ;
+}
+/* pulsanti */
+
+.pulsante1{
+    width: 60px;
+    padding: 15px 15px ;
+    background-color: rgb(55, 199, 247);
+    border: 1px solid  rgb(55, 199, 247); 
+    border-radius: 5px;
+    }
+
+.pulsante2{
+    width: 60px;
+    padding: 15px 15px ;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 10px;
+    color: gray;
+}
+
+/* parte centrale-liste */
+
+main{
+    max-width: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 80px 80px;
+}
